@@ -1,0 +1,106 @@
+/* SWATCHES ---------------------------------------------------------------------- */
+
+span.cm-attribute	{ color: orange; }
+span.cm-builtin     { color: orange; }
+span.cm-def			{ color: orange; }
+span.cm-header      { color: orange; }
+span.cm-qualifier	{ color: orange; }
+span.cm-variable	{ color: orange; }
+
+span.cm-atom		{ color: blue; }
+span.cm-link		{ color: blue; }
+span.cm-string		{ color: green; }
+span.cm-string-2    { color: blue; }
+
+span.cm-meta		{ color: red; }
+span.cm-property	{ color: red; }
+span.cm-tag			{ color: red; }
+
+span.cm-variable-2	{ color: blue; }
+span.cm-variable-3	{ color: blue; }
+
+span.cm-comment		{ color: hsl(220, 10%, 40%); }
+span.cm-error		{ color: red; }
+span.cm-keyword		{ color: blue; }
+span.cm-operator	{ color: blue; }
+
+span.cm-number		{ color: red; }
+
+span.cm-bracket		{ color: hsl(220, 12%, 51%); }
+
+
+/* MISC ---------------------------------------------------------------------- */
+
+.CodeMirror {
+    line-height: 1.4;
+}
+
+.CodeMirror-scroll {
+	background: #262629;
+	color: white;
+}
+
+.CodeMirror-cursor {
+	border-left: 2px solid blue !important;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-bottom: 1px solid blue !important;
+    border-left: none !important;
+}
+
+.CodeMirror-gutters {
+	background: #2e2e31;
+	border-right: 1px solid #262629;
+}
+
+.CodeMirror-linenumber {
+	color: white;
+}
+
+.CodeMirror-selected {
+	background: purple !important;
+}
+
+/* Matching */
+
+.CodeMirror-matchingbracket {
+    background: transparent !important;
+	border-bottom: 3px solid blue !important;
+    color: #fff !important;
+}
+
+.CodeMirror-matchingtag {
+    background: transparent !important;
+	border-bottom: 2px solid blue !important;
+}
+
+/* Active Line */
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
+	color: pink !important;
+}
+
+.CodeMirror-activeline-background {
+	background: #3b3b3e !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+	color: white;
+    background-color: #2e2e31;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
+	color: white;
+}
+
+/* Non-editor styling */
+
+#image-holder,
+#not-editor {
+    background-color: #2e2e31;
+}
+
+#image-holder {
+    color: white;
+}

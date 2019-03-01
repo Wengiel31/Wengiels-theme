@@ -1,0 +1,20 @@
+{
+    "title": "Wengiel's theme",
+    "name": "Wengiels-theme",
+    "description": "The theme that Wengiel is currently using.",
+    "version": "1.0.0",
+    "author": "Wengiel",
+    "homepage": "https://github.com/xRealNeon/80sBaby-rework",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:xRealNeon/80sBaby-Rework.git"
+    },
+    "license": "GNU GPL v3",
+    "engines": {
+        "brackets": ">=0.42.0"
+    },
+    "theme": {
+        "file": "Wengiels-theme.css",
+        "dark": true
+    }
+}
